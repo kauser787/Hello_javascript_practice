@@ -33,8 +33,11 @@ let remainder = 119 % 5;
 // -------------- Practices Problem 5 -------------
 
 let fruits = ['apple','banana', 'orange'];
+// problem 1 banana indexOf and replace with mango
+let bananaPosition = fruits.indexOf('banana')
 fruits[1]= "mango";
+// problem 1.0 push nah pop
 fruits.pop("orange");
 fruits.push("watermelon");
-// console.log(fruits);
+console.log(bananaPosition);
 
