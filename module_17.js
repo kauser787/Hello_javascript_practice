@@ -33,3 +33,7 @@ let remainder = 119 % 5;
 // -------------- Practices Problem 5 -------------
 
 let fruits = ['apple','banana', 'orange'];
+fruits[1]= "mango";
+fruits.pop("orange");
+fruits.push("watermelon");
+console.log(fruits);

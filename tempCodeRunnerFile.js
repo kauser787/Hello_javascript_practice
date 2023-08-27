@@ -1,0 +1,1 @@
+delete fruits[2];
