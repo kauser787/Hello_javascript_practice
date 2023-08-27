@@ -36,4 +36,5 @@ let fruits = ['apple','banana', 'orange'];
 fruits[1]= "mango";
 fruits.pop("orange");
 fruits.push("watermelon");
-console.log(fruits);
+// console.log(fruits);
+
