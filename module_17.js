@@ -37,7 +37,35 @@ let fruits = ['apple','banana', 'orange'];
 let bananaPosition = fruits.indexOf('banana')
 fruits[1]= "mango";
 // problem 1.0 push nah pop
-fruits.pop("orange");
+fruits.pop();
 fruits.push("watermelon");
-console.log(bananaPosition);
+// console.log(fruits);
 
+// -------------- Practices Problem 6 -------------
+let fristNumber = 13;
+let sceondNumber = 79;
+let thirdNumber = 45;
+
+if ( fristNumber > sceondNumber && fristNumber > thirdNumber){
+    // console.log("taile frist number larger");
+
+}
+else if (sceondNumber > fristNumber && sceondNumber > thirdNumber) {
+    // console.log('taile sceond Number is  the larger');
+}
+else {
+    // console.log('taile third number is the larger');
+}
+
+// -------------- Practices Problem 5.5 -------------
+
+let triangle1 = 9;
+let triangle2 = 8;
+let triangle3 = 9;
+
+if ( triangle1 == triangle2 || triangle1 == triangle3){
+    console.log("two sides are equal");
+}
+else {
+    console.log("taile condition ekta sotti nah ");
+}
